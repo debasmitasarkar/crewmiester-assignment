@@ -1,0 +1,23 @@
+name: absence_api                 
+description: Local JSON API for the Crewmeister challenge
+version: 0.0.1
+publish_to: "none"               
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  build_runner: ^2.4.9
+  json_serializable: ^6.8.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - json_files/absences.json
+    - json_files/members.json
